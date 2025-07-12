@@ -1,4 +1,6 @@
 AI Classroom Assistant: Visual Question Answering with OpenVINO
+
+
 This project demonstrates the power of Intel's OpenVINO toolkit to accelerate a Visual Question Answering (VQA) model. The application uses a pre-trained ViLT model (dandelin/vilt-b32-finetuned-vqa) to answer natural language questions about an image.
 The interactive web interface, built with Streamlit, allows users to see firsthand the impact of model optimization. You can seamlessly switch between different hardware devices (like CPU and integrated GPU) and compare the performance (latency and model size) of the original PyTorch model against its optimized OpenVINO versions (FP32, FP16, and INT8).
 Features
