@@ -1,0 +1,9 @@
+openvino==2024.1.0
+openvino-dev==2024.1.0
+nncf==2.10.0
+streamlit
+transformers
+torch
+Pillow
+requests
+protobuf==3.20.3

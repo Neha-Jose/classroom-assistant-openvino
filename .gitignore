@@ -1,0 +1,42 @@
+# --- Python ---
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+
+# --- OpenVINO & ML Models ---
+# IGNORE ALL MODEL FILES. They are too large for Git.
+*.bin
+*.xml
+*.onnx
+# You might also have a dedicated model folder
+model/
+intel/
+
+
+# --- Data and Outputs ---
+# Ignore datasets and output files
+data/
+images/
+videos/
+output/
+runs/
+
+
+# --- General ---
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor folders
+.vscode/
+.idea/
+
+# Environment variables (secrets!)
+.env
